@@ -1,0 +1,13 @@
+mvn install:install-file -Dfile=D:\java\jpbc-2.0.0\jars\bcprov-jdk16-1.46.jar -DgroupId=com.dyc -DartifactId=bcprov-jdk -Dversion=1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=D:\java\jpbc-2.0.0\jars\jna-3.2.5.jar -DgroupId=com.dyc -DartifactId=jna -Dversion=1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=D:\java\jpbc-2.0.0\jars\jpbc-api-2.0.0.jar -DgroupId=com.dyc -DartifactId=jpbc-api -Dversion=1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=D:\java\jpbc-2.0.0\jars\jpbc-benchmark-2.0.0.jar -DgroupId=com.dyc -DartifactId=jpbc-benchmark -Dversion=1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=D:\java\jpbc-2.0.0\jars\jpbc-crypto-2.0.0.jar -DgroupId=com.dyc -DartifactId=jpbc-crypto -Dversion=1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=D:\java\jpbc-2.0.0\jars\jpbc-mm-2.0.0.jar -DgroupId=com.dyc -DartifactId=jpbc-mm -Dversion=1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=D:\java\jpbc-2.0.0\jars\jpbc-plaf-2.0.0.jar -DgroupId=com.dyc -DartifactId=jpbc-plaf -Dversion=1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=D:\java\jpbc-2.0.0\jars\jpbc-pbc-2.0.0.jar -DgroupId=com.dyc -DartifactId=jpbc-pbc -Dversion=1.0 -Dpackaging=jar
+
+
+
+
+

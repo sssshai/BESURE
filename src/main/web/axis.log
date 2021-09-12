@@ -1,0 +1,30 @@
+开始部署合约 
+系统初始化参数，已经存在系统参数 
+AS的公钥为：646167153965762 
+Eq.1 does not hold 
+Eq.1 does not hold 
+Eq.1 does not hold 
+Eq.1 does not hold 
+Eq.1 does not hold 
+用户1开始登录 
+AS验证用户ID：181和pwd：1通过 
+用户1登录成功 
+医生身份为doctor 
+有效期为1611817773052 
+辅助信息为dep 
+isTheFirstTime:true 
+ 
+EHR{depName='1', depID='1', idP='1', idD='1', HName='11', HID='1', content='1'} 
+审计者1开始审计文件 
+AuditResult{checkPn=true, checkSig=true, checkHash=true} 
+isTheFirstTime:false 
+EHR{depName='1', depID='1', idP='1', idD='1', HName='11', HID='1', content='1'} 
+EHR{depName='2', depID='2', idP='2', idD='2', HName='2', HID='2', content='2'} 
+update ck_rou_y_rou succeeded! 
+审计者1开始审计文件 
+AuditResult{checkPn=true, checkSig=true, checkHash=true} 
+isTheFirstTime:false 
+EHR{depName='2', depID='2', idP='2', idD='2', HName='2', HID='2', content='2'} 
+数据库开始清理 
+数据库清理成功 
+清理合约资源文件 

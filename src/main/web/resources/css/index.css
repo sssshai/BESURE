@@ -1,0 +1,61 @@
+.paddingtop {
+    padding-top: 2px;
+    font-size: 15px;
+}
+
+.box {
+    /*width:100%;*/
+    /* height:100px;*/
+    /*  margin-top:5px;*/
+    background-color: #4169E1;
+    /*line-height: 100px;*/
+    /*text-align: center;*/
+    color: white;
+}
+
+#file_table {
+    text-align: center;
+    font-size: 15px;
+}
+
+.foot {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 20px;
+    position: fixed;
+    bottom: 0;
+    background-color: #4169E1;
+    font-size: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    margin: 0;
+}
+
+/*h3{
+  line-height: 80px;
+  color: white;
+}
+table{
+  text-align: center;
+}*/
+.p1 {
+    margin-top: 30px;
+    font-family: SimHei, serif;
+    font-size: xx-large;
+    text-align: center;
+    /*line-height: 100px;*/
+}
+
+.table1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+

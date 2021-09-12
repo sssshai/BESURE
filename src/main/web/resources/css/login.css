@@ -1,0 +1,88 @@
+body {
+    background: url('../img/blockchain2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.box {
+    height: 130px;
+    padding-top: 70px;
+    text-shadow: -4px 4px 3px black;
+}
+
+.box p {
+    font-size: 15px;
+    color: rgba(250, 250, 250, 1);
+    line-height: 50px;
+    /* text-shadow:-4px 4px 3px black;*/
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0, 0, 0, .1),
+    0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
+    text-align: center;
+    -webkit-animation-name: myfirst;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: .5s;
+    -webkit-transition-timing-function: linear;
+}
+
+.box1 {
+    margin-top: 60px;
+}
+
+/*.box2{
+  width:470px;
+  height:270px;
+  border:2px solid white;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 20px;
+  font-size: 17px;
+  color:white;
+  font-family: SimHei;
+}*/
+.box2 {
+    width: 450px;
+    height: 280px;
+    border: 2px solid #7fffd4;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: "Arial", serif;
+    color: #7fffd4;
+    background-color: rgba(250, 250, 250, 0);
+}
+
+.box2 p {
+    font-size: 20px;
+    font-family: "Arial", serif;
+}
+
+.username1 {
+    padding-left: 4px;
+}
+
+.password1 {
+    padding-left: 4px;
+}
+
+@-webkit-keyframes myfirst {
+    0% {
+        font-size: 15px;
+    }
+    100% {
+        font-size: 40px;
+    }
+}

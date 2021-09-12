@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace:理解成生成的实现类的全路径(包名+类名) -->
+<!--suppress ALL -->
+<mapper namespace="clean">
+    <delete id="deleteCS">
+        delete
+        from t_cs
+    </delete>
+    <delete id="deleteH">
+        delete
+        from t_h
+    </delete>
+    <delete id="deleteKS">
+        delete
+        from t_ks
+    </delete>
+    <delete id="deleteUser">
+        delete
+        from t_user
+    </delete>
+    <delete id="deleteEhr">
+        delete
+        from t_ehr
+    </delete>
+</mapper>
